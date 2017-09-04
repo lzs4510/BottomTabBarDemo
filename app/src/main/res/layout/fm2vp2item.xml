@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:id="@+id/fm2vp2_image"
+        android:layout_width="100dp"
+        android:layout_height="80dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/fm2vp2_name"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="#a30de4"
+            android:text="dfdff"/>
+        <TextView
+            android:id="@+id/fm2vp2_jieshao"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:text="dfdff"/>
+        <TextView
+            android:id="@+id/fm2vp2_price"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:textColor="#e6130b"
+            android:text="dfdff"/>
+
+    </LinearLayout>
+</LinearLayout>

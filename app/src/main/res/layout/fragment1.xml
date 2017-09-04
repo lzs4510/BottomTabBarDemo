@@ -2,5 +2,26 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0bd737">
+    android:orientation="horizontal"
+    android:background="#faefef"
+   >
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:listSelector="#ca09dc"
+        >
+    </ListView>
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#d6d1d5"
+        android:dividerHeight="2dp"
+        >
+
+
+    </ListView>
+
 </LinearLayout>
